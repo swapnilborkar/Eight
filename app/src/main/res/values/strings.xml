@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Eight</string>
+    <string name="button_verbose">Verbose</string>
+    <string name="text_title">Java 8 Features on Android N</string>
+    <string name="title_text">Java 8 Features on Android N</string>
+    <string name="button_to_verbose">Verbose using onClickListener</string>
+    <string name="button_with_runnable">Verbose using Runnable</string>
+    <string name="result_placeholder">Result will be shown here.</string>
+</resources>
