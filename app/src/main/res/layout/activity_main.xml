@@ -1,47 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.swapnilborkar.demo.eight.MainActivity"
-    android:background="@color/colorPrimaryDark">
+    tools:context="com.swapnilborkar.demo.eight.MainActivity">
 
     <TextView
-        android:layout_centerHorizontal="true"
-        android:textColor="#E0E0E0"
-        android:padding="16dp"
-        android:text="@string/title_text"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:text="@string/title_text"
         android:textAppearance="@android:style/TextAppearance.Material.Display1" />
 
     <Button
-        android:layout_marginTop="24dp"
-        android:background="@color/pink"
-        android:textColor="@color/white"
-        android:layout_below="@id/textView"
-        android:text="@string/button_to_verbose"
+        android:id="@+id/button"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:id="@+id/button"
+        android:layout_below="@id/textView"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@color/pink"
         android:padding="@dimen/activity_horizontal_margin"
+        android:text="@string/button_to_verbose"
+        android:textColor="@color/white"
          />
 
     <Button
-        android:background="@color/pink"
-        android:textColor="@color/white"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/button"
-        android:text="@string/button_with_runnable"
+        android:id="@+id/button2"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:id="@+id/button2"
-        android:layout_marginStart="48dp"
+        android:layout_below="@id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="16dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp" />
+        android:background="@color/pink"
+        android:text="@string/button_with_runnable"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/pink"
+        android:text="@string/add_two_random_numbers_using_functional_interface"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="@string/result_placeholder"
+        android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
 
 </RelativeLayout>

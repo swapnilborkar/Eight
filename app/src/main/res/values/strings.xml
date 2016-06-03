@@ -4,6 +4,8 @@
     <string name="text_title">Java 8 Features on Android N</string>
     <string name="title_text">Java 8 Features on Android N</string>
     <string name="button_to_verbose">Verbose using onClickListener</string>
-    <string name="button_with_runnable">Verbose using Runnable</string>
-    <string name="result_placeholder">Result will be shown here.</string>
+    <string name="button_with_runnable">Verbose using onClickListener inside Runnable</string>
+    <string name="result_placeholder">0.0</string>
+    <string name="add_two_random_numbers_using_functional_interface">Add two random numbers using Functional Interface</string>
+
 </resources>
